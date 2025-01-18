@@ -8,79 +8,75 @@ import { useRouter } from 'next/navigation';
 
 
 const Login = () => {
+  // Usestate For password visibility
   const [showPassword, setShowPassword] = useState(false);
+  // Router to access pages
   const router = useRouter();
-
+  // Handle Login form submit
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault(); // Prevent form refresh
 
-    // Directly redirect to '/main' without any validation or conditions
-    router.push('/Main');
+    router.push('/Main');// Onsubmit route to mainpage
   };
   return (
-    <main className=" bg-white font-sans ">
-        <div className=" flex justify-center items-center w-screen h-screen">
-          <div className=''>
-            <form action="" onSubmit={handleLogin} className = " flex justify-center  h-96 w-80 shadow-zero-offset shadow-Text_Primary border-Text_Primary rounded-3xl  ">
-                <div>
-                  <h1 className=" pt-5 flex justify-center text-Text_Primary text-2xl font-bold ">
-                    Login
-                  </h1>
-                  
-                  <div className = " mt-8 flex justify-center items-center h-72 ">
-                    <div>
-                      <div >
-                          <h1 className = " text-Text_Primary font-bold text-xl ">Username</h1>
-                          <input 
-                          type="text" 
-                          name="username" 
-                          id="" 
-                          placeholder = " Enter Username " 
-                          className = " p-2 w-60 h-9 bg-white border border-Text_Primary rounded-lg text-Text_Secondary "
-                          />
-                      </div>
+    <main className="w-screen h-screen flex flex-col justify-center items-center gap-5 bg-white font-sans "> 
+    {/* Login Form */}
+      <form action="" onSubmit={handleLogin} className = "flex flex-col items-center justify-center gap-5 h-96 w-80 shadow-zero-offset shadow-Text_Primary border-Text_Primary rounded-3xl  ">
+        
+        {/* Username Input */}
+        <h1 className=" flex justify-center text-Text_Primary text-2xl font-bold ">
+          Login
+        </h1>
+        <label htmlFor='username' className = "relative right-16 top-5 text-Text_Primary font-bold text-xl ">Username</label >
+        <input 
+          type="text" 
+          name="username" 
+          id="" 
+          placeholder = " Enter Username " 
+          className = " w-60 h-9 bg-white border border-Text_Primary rounded-lg text-Text_Secondary pl-2 "
+        />
 
-                      <div className=' relative top-5'>
-                          <h1 className=' text-Text_Primary font-bold text-xl'>Password</h1>
-                          <input 
-                          type={showPassword ? 'text' : 'password'} 
-                          name="password" 
-                          id="" 
-                          placeholder = " Enter Password " 
-                          className = " p-2 w-60 h-9 bg-white border text-Text_Secondary border-Text_Primary rounded-lg "
-                          />
-                          <button
-                            type="button"
-                            className="absolute transform right-5 mt-1.5 focus:outline-none  text-black "
-                            onClick={() => setShowPassword((prev) => !prev)}
-                          >
-                            {showPassword ? (
-                              <EyeOffIcon className="text-xl" />
-                            ) : (
-                              <EyeIcon className="text-xl" />
-                            )}
-                          </button>
-                      </div>
+        {/* Input Password */}
+        <label htmlFor='password' className='relative right-16 top-5 text-Text_Primary font-bold text-xl'>Password</label>
+        <input 
+        type={showPassword ? 'text' : 'password'} 
+        name="password" 
+        id="" 
+        placeholder = " Enter Password " 
+        className = " p-2 w-60 h-9 bg-white border text-Text_Secondary border-Text_Primary rounded-lg pl-2 "
+        />
 
-                      <div className = " relative flex justify-center items-end h-20 top-4 ">
-                        <button type="submit" onClick={handleLogin} className = " bg-background_main w-36 h-9 rounded-full text-Text_Primary text-xl font-bold  ">
-                          Login
-                        </button>
-                      </div>
-                      <div className = " flex justify-center items-end h-14 text-Text_Primary text-sm font-medium  ">
-                        <a href="Signup" className = " text-xs flex justify-center ">Don't have an account yet?<span className = " text-background_main underline ">Sign Up Now</span></a>
-                      </div>
-                    </div>  
-                  </div>       
-                </div>
-            </form>
-            <div className = " relative flex justify-center top-40  ">
-              <h1 className=' items-end   text-Text_Primary text-base font-bold '>
-                Developed by:<span className=' text-background_main'>cardTech.inc</span>
-              </h1>
-            </div>
-          </div>  
-        </div>
+        {/* Button Password Visibiity */}
+        <button
+          type="button"
+          className="absolute transform right-16 mt-28 focus:outline-none  text-black "
+          onClick={() => setShowPassword((prev) => !prev)}
+        >
+        {/* Handle onclick show password */}
+        {showPassword ? (
+          <EyeOffIcon className="text-xl" />
+        ) : (
+          <EyeIcon className="text-xl" />
+        )}
+        </button>
+
+        {/* Login Button */}
+        <button type="submit" onClick={handleLogin} className = "relative top-3 bg-background_main w-36 h-9 rounded-full text-Text_Primary text-xl font-bold  ">
+        Login
+        </button>
+        {/* Link for Signup&Registration */}
+        <a href="Signup" className = "relative top-4 text-xs flex justify-center ">Don't have an account yet?
+          <span className = " text-background_main underline ">Sign Up Now</span>
+        </a>    
+
+      </form>
+
+      {/* Footer */}
+      <div className = " flex items-center justify-center mb-4 relative top-32">
+        <h1 className=' items-end   text-Text_Primary text-base font-bold '>
+          Developed by:<span className=' text-background_main'>cardTech.inc</span>
+        </h1>
+      </div>
     </main>
   )
 }
