@@ -3,7 +3,9 @@ import Image from "next/image"
 
 const Header = () => {
   return (
+    // Header Component for menu and search
     <nav className = " w-screen h-20 flex justify-center items-end pb-4 gap-3 pl-1 pr-1  bg-background_main ">
+        {/* menu button */}
         <button className = "  ">
         <Image 
         src={"/image/button/menu.png"} 
@@ -13,7 +15,7 @@ const Header = () => {
         />
         </button>
 
-
+        {/* search input */}
         <input 
         type = " text " 
         name = " Searchbar " 
@@ -29,7 +31,7 @@ const Header = () => {
         className = " h-5 relative right-12 "
         />
         
-
+        {/* Add chat button */}
         <button className = " relative right-5  ">
         <Image
         src = {"/image/button/Addbutton.png"}

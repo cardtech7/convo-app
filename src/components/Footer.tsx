@@ -3,6 +3,7 @@ import Image from "next/image"
 
 const Footer = () => {
   return (
+    // Footer for better page routing
     <footer className = " w-screen h-14 flex gap-32 justify-center bg-background_main ">
         <Link href = " /Chats " className = " flex flex-col justify-center items-center ">
         <Image

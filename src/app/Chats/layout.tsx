@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Conversation",
     description: "Convo a simple, Reliable messaging app",
   };
-
+// Layout of main pages
 const MainLayout = ({ children }: { children: React.ReactNode }) => {
     return (
       <div className = " flex flex-col min-h-screen font-sans ">
