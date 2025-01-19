@@ -16,7 +16,7 @@ const Login = () => {
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault(); // Prevent form refresh
 
-    router.push('/Main');// Onsubmit route to mainpage
+    router.push('/Chats');// Onsubmit route to mainpage
   };
   return (
     <main className="w-screen h-screen flex flex-col justify-center items-center gap-5 bg-white font-sans "> 
