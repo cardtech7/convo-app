@@ -18,6 +18,7 @@ const Login = () => {
 
     router.push('/Chats');// Onsubmit route to mainpage
   };
+
   return (
     <main className="w-screen h-screen flex flex-col justify-center items-center gap-5 bg-white font-sans "> 
     {/* Login Form */}
@@ -65,7 +66,7 @@ const Login = () => {
         Login
         </button>
         {/* Link for Signup&Registration */}
-        <a href="Signup" className = "relative top-4 text-xs flex justify-center ">Don't have an account yet?
+        <a href="Register" className = "relative top-4 text-xs flex justify-center ">Don't have an account yet?
           <span className = " text-background_main underline ">Sign Up Now</span>
         </a>    
 

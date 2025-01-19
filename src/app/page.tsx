@@ -29,7 +29,7 @@ const Main = () => {
 
         <div className=" flex justify-center mt-20 ">
           <div className = " w-48 h-10 rounded-full flex justify-center items-center bg-background_main  ">
-            <a href="Auth/Login" className = " text-Text_Primary ">
+            <a href = " pages/Login " className = " text-Text_Primary ">
               Let's Get Started
             </a>
           </div>
