@@ -19,18 +19,18 @@ const Main = () => {
             Welcome To Convo App
           </h1>
           <p className = " flex justify-center w-screen text-Text_Secondary text-sm p-3 ">
-            "Convo is a simple, reliable messaging app 
+          &quot;Convo is a simple, reliable messaging app 
             that makes staying connected effortless and 
             seamless - Chat smarter with Convo, share it 
             with friends and keep the conversation flowing 
-            effortlessly!"
+            effortlessly!&quot;
           </p>
         </div>
 
         <div className=" flex justify-center mt-20 ">
           <div className = " w-48 h-10 rounded-full flex justify-center items-center bg-background_main  ">
             <a href = " pages/Login " className = " text-Text_Primary ">
-              Let's Get Started
+              Let&apos;s Get Started
             </a>
           </div>
         </div>

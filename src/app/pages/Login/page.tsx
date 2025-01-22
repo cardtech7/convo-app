@@ -66,7 +66,7 @@ const Login = () => {
         Login
         </button>
         {/* Link for Signup&Registration */}
-        <a href="Register" className = "relative top-4 text-xs flex justify-center ">Don't have an account yet?
+        <a href="Register" className = "relative top-4 text-xs flex justify-center ">Don&apos;t have an account yet?
           <span className = " text-background_main underline ">Sign Up Now</span>
         </a>    
 

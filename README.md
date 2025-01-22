@@ -71,5 +71,7 @@ Starting Log in Registration Pages
 Finish the initial Log in and Registration Pages
 
 ## Day 3
-Day 3 this day I re-structure the registration and log in pages also the header and footer to make it components and the main pages was started but there are some bugs I see to fix tomorrow. Tomorrow fucos was to fix bug and creata a starting global chat to start the authentication of registration
+Day 3 this day I re-structure the registration and log in pages also the header and footer to make it components and the main pages was started but there are some bugs I see to fix tomorrow. Tomorrow fucos was to fix bug.
 
+## Day 4 
+This day I start creating the side bar hope to finish with in next 1 to 2 days and also the design I use is Mobile first design so after I finish the design for mobile an initial design I'll make a for tablet and desktop/laptop then go for backend and database. To launch the simple project and continue add the feature of what in the plan is.
