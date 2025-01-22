@@ -34,3 +34,42 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+My Documentation
+# Convo - Messaging App
+
+Convo is a web-based messaging app built with the MERN stack (MongoDB, Express, React, Node.js).
+Soon To be a Native Andriod Ios App.
+
+## Features
+- Real-time chat
+- User authentication (signup/login)
+- User profiles
+- Messaging history
+- More features to come but still in planing stage
+
+## Getting Started
+
+Follow these steps to get the development environment running:
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) installed
+- [MongoDB](https://www.mongodb.com/) running locally or use MongoDB Atlas
+
+### Install Dependencies
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/cardtech7/convo-app.git
+   cd convo
+
+# Daily Progress
+## Day 1
+Starting Log in Registration Pages
+
+## Day 2 
+Finish the initial Log in and Registration Pages
+
+## Day 3
+Day 3 this day I re-structure the registration and log in pages also the header and footer to make it components and the main pages was started but there are some bugs I see to fix tomorrow. Tomorrow fucos was to fix bug and creata a starting global chat to start the authentication of registration
+
