@@ -10,7 +10,7 @@ const SignUp = () => {
     const togglePasswordVisibility = () => setShowPassword(!showPassword);
 
     return(
-      <main className="flex flex-col justify-center items-center h-screen w-screen bg-white font-sans ">
+      <main className="flex flex-col text-Text_Primary justify-center items-center h-screen w-screen bg-white font-sans ">
         {/* Sign up form */}
         <form action="" className = " p-5 flex flex-col justify-center items-center gap-2 shadow-zero-offset shadow-Text_Primary border-Text_Primary rounded-3xl  ">
 

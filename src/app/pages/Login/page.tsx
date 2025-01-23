@@ -16,11 +16,11 @@ const Login = () => {
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault(); // Prevent form refresh
 
-    router.push('/Chats');// Onsubmit route to mainpage
+    router.push('main');// Onsubmit route to mainpage
   };
 
   return (
-    <main className="w-screen h-screen flex flex-col justify-center items-center gap-5 bg-white font-sans "> 
+    <main className="w-screen h-screen flex flex-col justify-center items-center gap-5 bg-white font-sans text-Text_Primary "> 
     {/* Login Form */}
       <form action="" onSubmit={handleLogin} className = "flex flex-col items-center justify-center gap-5 h-96 w-80 shadow-zero-offset shadow-Text_Primary border-Text_Primary rounded-3xl  ">
         
@@ -82,4 +82,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Login;

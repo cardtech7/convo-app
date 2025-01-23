@@ -2,10 +2,10 @@
 
 const ChatPage = () => {
     return(
-        <main>
-            <div>
-                Chats
-            </div>
+        <main className = " text-Text_Primary ">
+            
+                Chats haha
+            
             
         </main>
         

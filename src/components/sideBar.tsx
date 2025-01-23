@@ -1,13 +1,11 @@
-/* eslint-disable react/react-in-jsx-scope */
 
-import { ActivityIcon, ActivitySquareIcon } from "lucide-react"
 import Image from "next/image"
 
 const sideBar = () => {
   return (
-    <main className = " flex  justify-center items-center h-screen  ">
-      <nav className = " flex flex-col p-2 h-4/5  w-72 ">
-        <div className = " flex ">
+    <main className = " flex text-Text_Primary  justify-center items-center h-screen font-sans ">
+      <nav className = " flex flex-col  h-4/5  w-80 ">
+        <div className = " flex pl-2 ">
           <Image 
             src = {"/"}
             alt = ""
@@ -34,9 +32,46 @@ const sideBar = () => {
           </div>
         </div>
         
-        <section>
-          
+        <section className = "  border-b pb-7 border-Text_Primary mt-10 flex flex-col items-start gap-5 font-medium  ">
+
+          <button className = "w-72 p-2 flex items-start active:bg-background_chat">
+            <a href="">
+              Manage Account
+            </a>
+          </button>
+
+          <button className = "w-72 p-2 flex items-start active:bg-background_chat">
+            <a href="">
+              Create Group
+            </a>
+          </button>
+
+          <button className = "w-72 p-2 flex items-start active:bg-background_chat">
+            <a href="">
+              Black List
+            </a>
+          </button>
+
+          <button className = "w-72 p-2 flex items-start active:bg-background_chat">
+            <a href="">
+              Switch Account
+            </a>
+          </button>
+
+          <button className = "w-72 p-2 flex items-start active:bg-background_chat   ">
+            <a href="">
+              Logout
+            </a>
+          </button>
+
         </section>
+
+        <section>
+          <h1 className = " flex justify-center items-center h-72 font-medium ">
+            More features available soon!
+          </h1>
+        </section>
+
 
       </nav>
     </main>

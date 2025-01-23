@@ -32,7 +32,7 @@ export default {
         xxl : '1400px'
       },
       fontFamily: {
-        sans: ['Poppins', 'sans-serif'],
+        sans: ['Poppins', 'sans-serif', 'Sans'],
       },
       boxShadow: {
         'zero-offset': '0 0 5px', // 0x, 0y offset with a blur

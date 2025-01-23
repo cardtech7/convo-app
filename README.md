@@ -75,3 +75,6 @@ Day 3 this day I re-structure the registration and log in pages also the header 
 
 ## Day 4 
 This day I start creating the side bar hope to finish with in next 1 to 2 days and also the design I use is Mobile first design so after I finish the design for mobile an initial design I'll make a for tablet and desktop/laptop then go for backend and database. To launch the simple project and continue add the feature of what in the plan is.
+
+## Day 5 
+This day I finish the side bar frontend and I make a pages of each option in sidebar and make a pages structure so next day I make a routing and start the manage account frontend. Side bar pages will take 2 to 5 days to finish depends on my available time. So far no dependencies added just making frontend and make same structure changes.
