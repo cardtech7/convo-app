@@ -1,9 +1,22 @@
-
+import { ArrowLeft } from "lucide-react"
 
 const createGroup = () => {
   return (
-    <main>
-        Create Group
+    <main className = " min-h-screen flex flex-col ">
+        <header className = " w-screen h-16 p-3 flex justify-center items-center ">
+          <a href="/pages/main">
+            <ArrowLeft className = "  "/>
+          </a>
+
+          <h1 className = " flex justify-center w-screen font-semibold ">
+            Create Group
+          </h1>
+        </header>
+        <section className = " flex-1 bg-background_chat p-5 ">
+          <h1 className = " font-medium ">
+            Content Here
+          </h1>
+        </section>
     </main>
   )
 }

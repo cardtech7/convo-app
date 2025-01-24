@@ -35,31 +35,31 @@ const sideBar = () => {
         <section className = "  border-b pb-7 border-Text_Primary mt-10 flex flex-col items-start gap-5 font-medium  ">
 
           <button className = "w-72 p-2 flex items-start active:bg-background_chat">
-            <a href="">
+            <a href = "/pages/manageAccount">
               Manage Account
             </a>
           </button>
 
           <button className = "w-72 p-2 flex items-start active:bg-background_chat">
-            <a href="">
+            <a href = "/pages/createGroup">
               Create Group
             </a>
           </button>
 
           <button className = "w-72 p-2 flex items-start active:bg-background_chat">
-            <a href="">
-              Black List
+            <a href = "/pages/blockList">
+              Block List
             </a>
           </button>
 
           <button className = "w-72 p-2 flex items-start active:bg-background_chat">
-            <a href="">
+            <a href = " switchAccount ">
               Switch Account
             </a>
           </button>
 
           <button className = "w-72 p-2 flex items-start active:bg-background_chat   ">
-            <a href="">
+            <a href = " /pages/logout ">
               Logout
             </a>
           </button>

@@ -78,3 +78,6 @@ This day I start creating the side bar hope to finish with in next 1 to 2 days a
 
 ## Day 5 
 This day I finish the side bar frontend and I make a pages of each option in sidebar and make a pages structure so next day I make a routing and start the manage account frontend. Side bar pages will take 2 to 5 days to finish depends on my available time. So far no dependencies added just making frontend and make same structure changes.
+
+## Day 6
+Finish the layout of header in each menu options next day will fucos on the content of menu options no dependencies added. This day is fucos in header of menu options it takes more or less 1 hour, tommorow plan is to finish atleast 1 menu option.

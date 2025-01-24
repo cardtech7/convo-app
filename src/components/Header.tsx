@@ -29,9 +29,6 @@ const Header = () => {
         <Sidebar
           className = {` ${isOpen? "" : "translate-x-60" } transition-transform duration-500 ease-in-out text-Text_Primary `}  
         />
-
- 
-        
         </button>
 
 
