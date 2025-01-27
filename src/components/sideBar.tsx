@@ -6,6 +6,7 @@ const sideBar = () => {
     <main className = " flex text-Text_Primary  justify-center items-center h-screen font-sans ">
       <nav className = " flex flex-col  h-4/5  w-80 ">
         <div className = " flex pl-2 ">
+          {/* 
           <Image 
             src = {"/"}
             alt = ""
@@ -13,7 +14,7 @@ const sideBar = () => {
             height = {50}
             className = " h-12 w-12 rounded-full border border-black "
           />
-
+             */}
           <div className = " ml-2 ">
 
             <h1 className = " text-Text_Primary font-bold  ">
@@ -39,7 +40,7 @@ const sideBar = () => {
               Manage Account
             </a>
           </button>
-
+          {/*  
           <button className = "w-72 p-2 flex items-start active:bg-background_chat">
             <a href = "/pages/createGroup">
               Create Group
@@ -57,9 +58,9 @@ const sideBar = () => {
               Switch Account
             </a>
           </button>
-
+            */}
           <button className = "w-72 p-2 flex items-start active:bg-background_chat   ">
-            <a href = " /pages/logout ">
+            <a href = " /pages/login  ">
               Logout
             </a>
           </button>

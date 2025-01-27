@@ -16,7 +16,7 @@ const Login = () => {
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault(); // Prevent form refresh
 
-    router.push('main');// Onsubmit route to mainpage
+    router.push('/pages/main');// Onsubmit route to mainpage
   };
 
   return (

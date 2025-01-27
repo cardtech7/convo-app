@@ -4,8 +4,8 @@ import Image from "next/image"
 const Footer = () => {
   return (
     // Footer for better page routing
-    <footer className = " w-screen h-14 flex gap-32 justify-center bg-background_main ">
-        <Link href = " /Chats " className = " flex flex-col justify-center items-center ">
+    <footer className = " w-screen h-14 flex gap-32 justify-center bg-background_chat ">
+        <Link href = " /pages/main " className = " flex flex-col justify-center items-center ">
         <Image
             src = {"/image/button/chatbtn.png"}
             alt = " chatbtn "
@@ -16,8 +16,7 @@ const Footer = () => {
             Chats
         </h1>
         </Link>
-
-        <Link href = " Chats/globalchat " className = " flex flex-col justify-center items-center ">
+        <Link href = " main/globalchat " className = " flex flex-col justify-center items-center ">
         <Image
             src = {"/image/button/globalbtn.png"}
             alt = " /globalbtn "
@@ -28,6 +27,7 @@ const Footer = () => {
             Group
         </h1>
         </Link>
+
     </footer>
     )
 }

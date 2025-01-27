@@ -6,19 +6,20 @@ import { Sidebar } from "lucide-react"
 
 const Header = () => {
 
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
-  const toggleSidebar = () => {
+  const toggleSidebar = (event: { preventDefault: () => void }) => {
+    event.preventDefault();
     setIsOpen(!isOpen);
   };
 
   return (
     // Header Component for menu and search
     <main>
-    <nav className = {`fixed top-0 left-0 h-full  transition-transform ease-in-out duration-1000 shadow-lg ${isOpen? " translate-x-0 hidden  " : "w-72 bg-white "}  `}>
+    <nav className = {`${isOpen? " translate-x-0 hidden  " : "w-72 bg-white "}   fixed top-0 left-0 h-full  transition-transform ease-in-out duration-1000 shadow-lg  `}>
       <Side/>
     </nav>
-    <nav className = " w-screen h-16 flex justify-start items-end pb-4 pl-1 pr-1  bg-background_main ">
+    <nav className = " w-screen h-16 flex justify-start items-end pb-4 pl-1 pr-1  bg-background_chat ">
         {/* menu button */}
 
         

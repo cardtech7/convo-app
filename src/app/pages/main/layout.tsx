@@ -9,16 +9,21 @@ export const metadata: Metadata = {
     description: "Convo a simple, Reliable messaging app",
   };
 // Layout of main pages
-const MainLayout = ({ children }: { children: React.ReactNode }) => {
+const mainLayout = ({ children }: { children: React.ReactNode }) => {
     return (
-      <div className = " flex flex-col min-h-screen font-sans ">
-        <Header/>
-        <main className = " bg-background_chat flex-grow p-4 ">
-          {children}
-        </main>
-        <Footer/>
-      </div>
+      <main>
+      {children}
+      </main>
     );
   }
+  {/*
+       <div className = " flex flex-col min-h-screen font-sans ">
+         
+        <Header/>
+         className = " bg-white flex-grow p-4 "  
+        <Footer/>
+        
+      </div>
+      */}
 
-export default MainLayout;
+export default mainLayout;

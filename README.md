@@ -81,3 +81,13 @@ This day I finish the side bar frontend and I make a pages of each option in sid
 
 ## Day 6
 Finish the layout of header in each menu options next day will fucos on the content of menu options no dependencies added. This day is fucos in header of menu options it takes more or less 1 hour, tommorow plan is to finish atleast 1 menu option.
+
+## Day 7 
+Hide Some Features and create a conversation interface. I plan to start backend, api and database. To deploy the simple/first version of convo then continue adding features and fix bugs that convo will encounter. 
+# First Version to release features
+Registration Authentication
+Manage Account
+   -Change Name
+   -Change Email
+Global Chat
+

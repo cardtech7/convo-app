@@ -37,7 +37,13 @@ export default {
       boxShadow: {
         'zero-offset': '0 0 5px', // 0x, 0y offset with a blur
       },
+      fontSize: {
+        'xxs': '0.65rem',
+      }
     },
   },
   plugins: [],
 } satisfies Config;
+
+
+

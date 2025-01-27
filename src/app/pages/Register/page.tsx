@@ -68,7 +68,7 @@ const SignUp = () => {
             Sign Up
           </button>
           {/* Login Page link */}
-          <a href="Login" className = " text-xs flex justify-center ">
+          <a href="login" className = " text-xs flex justify-center ">
             Already have an account?
             <span className = " text-background_main underline ">
               Login Now
