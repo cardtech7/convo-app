@@ -1,9 +1,10 @@
 
-import Image from "next/image"
+//import Image from "next/image"
+import ThemeToggle from "./manageAccount/ThemeToggle"
 
 const sideBar = () => {
   return (
-    <main className = " flex text-Text_Primary  justify-center items-center h-screen font-sans ">
+    <main className = " flex text-Text_Primary dark:text-Text_Primary_dark  justify-center items-center h-screen font-sans ">
       <nav className = " flex flex-col  h-4/5  w-80 ">
         <div className = " flex pl-2 ">
           {/* 
@@ -17,7 +18,7 @@ const sideBar = () => {
              */}
           <div className = " ml-2 ">
 
-            <h1 className = " text-Text_Primary font-bold  ">
+            <h1 className = " font-bold  ">
               Carl Andre Diomon
             </h1>
 
@@ -25,7 +26,7 @@ const sideBar = () => {
 
               <div className = " h-2 w-2 mr-2 bg-green-500 rounded-full "></div>
 
-              <h6 className = " text-xs text-Text_Primary font-semibold ">
+              <h6 className = " text-xs font-semibold ">
                 Active
               </h6>
 
@@ -72,9 +73,10 @@ const sideBar = () => {
             More features available soon!
           </h1>
         </section>
-
-
       </nav>
+      <div className="hidden">
+        <ThemeToggle/>
+      </div>
     </main>
   )
 }

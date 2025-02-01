@@ -1,10 +1,10 @@
 "use client"
 
-import { ChevronDown, Flashlight, X } from "lucide-react"
+import { ChevronDown, X } from "lucide-react"
 import { useState } from "react";
 
 
-const changeProfile = () => {
+const ChangeProfile = () => {
     const [changeProfile, setChangeProfile] = useState(false);
 
     const toggleChangeProfile = () => {
@@ -68,4 +68,4 @@ const changeProfile = () => {
   )
 }
 
-export default changeProfile
+export default ChangeProfile

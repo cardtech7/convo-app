@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
+import ThemeToggle from "./manageAccount/ThemeToggle"
 
 const Footer = () => {
   return (
@@ -28,6 +29,9 @@ const Footer = () => {
         </h1>
         </Link>
 
+        <div className="hidden">
+            <ThemeToggle/>
+        </div>
     </footer>
     )
 }

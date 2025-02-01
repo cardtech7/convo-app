@@ -91,3 +91,6 @@ Manage Account
    -Change Email
 Global Chat
 
+## Day 8 
+Add Features Dark theme and theres a bug to fix but it will not included in first version of convo day 9 I will make sure to start the backend because I will finish learning backend before to start
+
