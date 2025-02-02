@@ -12,11 +12,13 @@ const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
   // Router to access pages
   const router = useRouter();
+  const [Username, setUsername] = useState('');
   // Handle Login form submit
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault(); // Prevent form refresh
 
-    router.push('/pages/main/chat');// Onsubmit route to mainpage
+    router.push('/pages/main/globalchat');
+    router.push(`/pages/main/globalchat?username=${Username}`);// Onsubmit route to mainpage
   };
 
   return (
@@ -32,6 +34,8 @@ const Login = () => {
         <input 
           type="text" 
           name="username" 
+          value={Username}
+          onChange={(e) => setUsername(e.target.value)}
           id="" 
           placeholder = " Enter Username " 
           className = " w-60 h-9 bg-white border border-Text_Primary rounded-lg text-Text_Secondary pl-2 "
